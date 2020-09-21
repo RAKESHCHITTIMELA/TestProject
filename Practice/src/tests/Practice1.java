@@ -20,7 +20,7 @@ public static AppiumDriver driver;
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		
 DesiredCapabilities caps = new DesiredCapabilities();
-		
+		//tested
 		caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
 		caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
 		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator");
